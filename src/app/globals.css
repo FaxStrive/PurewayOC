@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* PureWay OC Brand Colors */
+    --color-primary: #0891b2;
+    --color-primary-light: #06b6d4;
+    --color-primary-dark: #0e7490;
+    --color-primary-darker: #155e75;
+    --color-secondary: #1E3A5F;
+    --color-secondary-light: #2B4F7A;
+    --color-secondary-dark: #152B47;
+    --color-cyan: #06b6d4;
+    --color-cyan-light: #22d3ee;
+    --color-cyan-pale: #ecfeff;
+    --color-accent: #D4A006;
+    --color-accent-light: #F5C842;
+    --color-accent-dark: #A67B05;
+    --color-accent-lighter: #FEF9E7;
+    --color-background: #FFFFFF;
+    --color-surface: #F8FBFE;
+    --color-surface-alt: #F0F7FF;
+    --color-border: #D1E8F0;
+    --color-text-primary: #1A2E3B;
+    --color-text-secondary: #3B5A6E;
+    --color-text-muted: #6B8EA0;
+
+    /* shadcn tokens mapped to brand */
+    --background: 0 0% 100%;
+    --foreground: 200 37% 16%;
+    --card: 204 60% 98%;
+    --card-foreground: 200 37% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 37% 16%;
+    --primary: 189 92% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 214 52% 24%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 207 100% 97%;
+    --muted-foreground: 198 22% 52%;
+    --accent: 43 94% 42%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --border: 194 45% 85%;
+    --input: 194 45% 85%;
+    --ring: 189 92% 36%;
+    --radius: 0.625rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body, system-ui, -apple-system, sans-serif);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading, system-ui, -apple-system, sans-serif);
+    color: var(--color-secondary);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
