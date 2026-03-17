@@ -134,9 +134,21 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/40">
-            &copy; {new Date().getFullYear()} PureWay OC. All rights reserved.
-          </p>
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <p className="text-xs text-white/40">
+              &copy; {new Date().getFullYear()} PureWay OC. All rights reserved.
+            </p>
+            <span className="hidden sm:inline text-xs text-white/20">|</span>
+            <div className="flex items-center gap-3">
+              <Link href="/privacy" className="text-xs text-white/40 hover:text-white/70 transition-colors">
+                Privacy Policy
+              </Link>
+              <span className="text-xs text-white/20">|</span>
+              <Link href="/terms" className="text-xs text-white/40 hover:text-white/70 transition-colors">
+                Terms of Service
+              </Link>
+            </div>
+          </div>
           <div className="flex items-center gap-6">
             <span className="text-xs text-white/40">WQA Certified</span>
             <span className="text-xs text-white/40">NSF 42/53/55</span>

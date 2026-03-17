@@ -3,6 +3,7 @@
 import { useState, useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Phone, Mail, Clock, MapPin, CalendarDays } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -202,6 +203,29 @@ export default function ContactForm() {
                       <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
+                </div>
+
+                {/* SMS Consent */}
+                <div className="space-y-2">
+                  <label className="flex items-start gap-3 cursor-pointer group">
+                    <input
+                      type="checkbox"
+                      name="sms_consent"
+                      className="mt-1 h-4 w-4 shrink-0 rounded border-[var(--color-border)] text-[var(--color-primary)] focus:ring-[var(--color-primary)]"
+                    />
+                    <span className="font-body text-xs leading-relaxed text-[var(--color-text-muted)]">
+                      I agree to receive text messages from PureWay OC at the phone number provided.
+                      Message frequency varies (approx. 4&ndash;8/month). Message &amp; data rates may
+                      apply. Reply STOP to opt out. View our{' '}
+                      <Link href="/privacy" className="text-[var(--color-primary)] hover:underline">
+                        Privacy Policy
+                      </Link>{' '}
+                      and{' '}
+                      <Link href="/terms" className="text-[var(--color-primary)] hover:underline">
+                        Terms of Service
+                      </Link>.
+                    </span>
+                  </label>
                 </div>
 
                 {/* Submit */}
