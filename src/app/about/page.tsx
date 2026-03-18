@@ -10,7 +10,17 @@ import AboutCTA from '@/components/about/about-cta'
 export const metadata: Metadata = {
   title: 'About PureWay OC | Our Story & Mission',
   description:
-    'Founded by a mom who believed every family deserves clean water. Learn about PureWay OC and our medical-grade water filtration technology powered by Toppen Health.',
+    'Learn about PureWay OC and our medical-grade water filtration technology powered by Toppen Health - 40 years of proven filtration trusted in hospitals and dental offices.',
+  alternates: { canonical: 'https://purewayoc.com/about' },
+  openGraph: {
+    title: 'About PureWay OC | Our Story & Mission',
+    description:
+      'Medical-grade water filtration powered by Toppen Health. Serving Orange County families with 40+ years of proven water purification technology.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://purewayoc.com/about',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'About PureWay OC' }],
+  },
 }
 
 export default function AboutPage() {

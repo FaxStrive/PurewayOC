@@ -9,12 +9,15 @@ export const metadata: Metadata = {
     'Free water test for Orange County homes. Test for PFAS, heavy metals, bacteria, and 100+ contaminants. Get a personalized water quality report with no obligation.',
   keywords:
     'free water test Orange County, water testing OC, PFAS water test, water quality report, water contaminant test, free water analysis',
+  alternates: { canonical: 'https://purewayoc.com/services/free-water-testing' },
   openGraph: {
     title: 'Free Water Testing | PureWay OC',
     description:
       'Know exactly what is in your water. Free basic test and comprehensive lab analysis for Orange County homeowners.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://purewayoc.com/services/free-water-testing',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Free Water Testing - PureWay OC' }],
   },
 }
 

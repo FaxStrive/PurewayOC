@@ -8,17 +8,20 @@ import WaterQualityChecker from '@/components/services/water-quality-checker'
 import ServicesCTA from '@/components/services/services-cta'
 
 export const metadata: Metadata = {
-  title: 'Water Filtration Services | PureWay OC',
+  title: 'Water Filtration Services Orange County',
   description:
-    'Whole-house filtration, reverse osmosis, water softeners, commercial systems, well water treatment, and free water testing. Medical-grade filtration for Orange County.',
+    'Whole-house filtration, reverse osmosis, water softeners, commercial systems, well water treatment, and free water testing. Medical-grade filtration for Orange County, CA.',
   keywords:
     'water filtration services Orange County, whole house water filter, reverse osmosis OC, water softener installation, well water filtration, free water test',
+  alternates: { canonical: 'https://purewayoc.com/services' },
   openGraph: {
     title: 'Water Filtration Services | PureWay OC',
     description:
-      'From whole-house purification to targeted solutions, we tailor every system to your home and water. Serving Orange County.',
+      'From whole-house purification to targeted solutions, we tailor every system to your home and water. Serving Orange County, CA.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://purewayoc.com/services',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'PureWay OC Water Filtration Services' }],
   },
 }
 

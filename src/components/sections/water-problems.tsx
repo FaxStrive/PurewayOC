@@ -219,6 +219,50 @@ export default function WaterProblems() {
               />
             </div>
           </motion.div>
+        {/* Cited statistics bar */}
+        <div
+          className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 rounded-xl border border-[var(--color-border)] bg-white/60 p-6 backdrop-blur-sm sm:mt-16"
+          role="region"
+          aria-label="Water quality statistics"
+        >
+          <div className="flex flex-col gap-1">
+            <p className="font-heading text-2xl font-bold text-[var(--color-primary)]">
+              85% of U.S. homes
+            </p>
+            <p className="font-body text-sm text-[var(--color-text-secondary)]">
+              have hard water, with Orange County measuring 200-400 mg/L &mdash; classified as very hard to extremely hard by the USGS.
+            </p>
+            <p className="font-body text-xs text-[var(--color-text-muted)] mt-1">
+              Source:{' '}
+              <a
+                href="https://www.usgs.gov/special-topics/water-science-school/science/hardness-water"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-[var(--color-primary)]"
+              >
+                U.S. Geological Survey (USGS)
+              </a>
+            </p>
+          </div>
+          <div className="flex flex-col gap-1 sm:border-l sm:border-[var(--color-border)] sm:pl-6">
+            <p className="font-heading text-2xl font-bold text-[var(--color-primary)]">
+              Up to 29% higher energy costs
+            </p>
+            <p className="font-body text-sm text-[var(--color-text-secondary)]">
+              Scale buildup from hard water insulates water heater elements, forcing them to use significantly more energy according to the U.S. Department of Energy.
+            </p>
+            <p className="font-body text-xs text-[var(--color-text-muted)] mt-1">
+              Source:{' '}
+              <a
+                href="https://www.energy.gov/energysaver/water-heating"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-[var(--color-primary)]"
+              >
+                U.S. Department of Energy (DOE)
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
