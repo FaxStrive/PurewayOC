@@ -219,6 +219,7 @@ export default function WaterProblems() {
               />
             </div>
           </motion.div>
+        </div>
         {/* Cited statistics bar */}
         <div
           className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 rounded-xl border border-[var(--color-border)] bg-white/60 p-6 backdrop-blur-sm sm:mt-16"
