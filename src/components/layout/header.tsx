@@ -24,6 +24,7 @@ const navLinks = [
   { href: '/testimonials', label: 'Testimonials' },
   { href: '/service-area', label: 'Service Area' },
   { href: '/faq', label: 'FAQ' },
+  { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ]
 
