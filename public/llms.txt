@@ -1,16 +1,16 @@
 # PureWay OC
 
-> Pure water from every tap. Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty.  Serving undefined, undefined.
+> Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty. Powered by Toppen Health.  Serving Orange County, CA.
 
 ## About
 
-PureWay OC is a trusted local provider serving undefined, undefined. Pure water from every tap. Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty. 85% of U.S. homes have hard water (U.S. Geological Survey, 2024).
+PureWay OC is a trusted local provider serving Orange County, CA. Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty. Powered by Toppen Health. 85% of U.S. homes have hard water (U.S. Geological Survey, 2024).
 
-Contact: 4084021920 |  | https://example.com
+Contact: 4084021920 |  | https://purewayoc.com
 
 ## Services
 
-- [Services](https://example.com/services): Professional services tailored to local needs.
+- [Services](https://purewayoc.com/services): Professional services tailored to local needs.
 
 ## Service Areas
 
@@ -37,14 +37,14 @@ Getting started is simple: call or submit the online contact form to schedule a 
 
 - **Phone**: 4084021920
 - **Address**: 
-- **Website**: https://example.com
-- **Book Online**: [Schedule a Free Consultation](https://example.com/contact)
+- **Website**: https://purewayoc.com
+- **Book Online**: [Schedule a Free Consultation](https://purewayoc.com/contact)
 
 ## All Pages
 
-- [Home](https://example.com): Pure water from every tap. Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty.
+- [Home](https://purewayoc.com): Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty. Powered by Toppen Health.
 
 ## Machine-Readable Versions
 
-- [Full Context](https://example.com/llms-full.txt): Extended business information for AI systems
-- [Q&A Pairs](https://example.com/llms-qa.json): Structured question-answer pairs
+- [Full Context](https://purewayoc.com/llms-full.txt): Extended business information for AI systems
+- [Q&A Pairs](https://purewayoc.com/llms-qa.json): Structured question-answer pairs

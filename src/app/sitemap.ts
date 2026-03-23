@@ -1,11 +1,16 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://example.com';
+  const baseUrl = 'https://purewayoc.com';
 
   return [
-
-      {
+    {
+      url: `${baseUrl}/`,
+      lastModified: new Date('2026-03-23'),
+      changeFrequency: 'monthly',
+      priority: 1.0,
+    },
+    {
       url: `${baseUrl}/about`,
       lastModified: new Date('2026-03-18'),
       changeFrequency: 'monthly',
@@ -14,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/before-after`,
       lastModified: new Date('2026-03-18'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date('2026-03-23'),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
@@ -30,12 +41,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
       url: `${baseUrl}/privacy`,
       lastModified: new Date('2026-03-18'),
       changeFrequency: 'monthly',
@@ -43,6 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/service-area`,
+      lastModified: new Date('2026-03-18'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/services`,
       lastModified: new Date('2026-03-18'),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -61,12 +72,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/services/maintenance`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/services`,
       lastModified: new Date('2026-03-18'),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -107,302 +112,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-03-18'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
   ];
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
