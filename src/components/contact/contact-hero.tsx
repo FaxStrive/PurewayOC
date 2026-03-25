@@ -12,8 +12,8 @@ const quickItems = [
   },
   {
     icon: Mail,
-    text: 'baharehlopez@gmail.com',
-    href: 'mailto:baharehlopez@gmail.com',
+    text: 'purewayoc@gmail.com',
+    href: 'mailto:purewayoc@gmail.com',
   },
   {
     icon: Clock,

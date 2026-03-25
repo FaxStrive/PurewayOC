@@ -96,8 +96,8 @@ export default function TermsOfServicePage() {
             </h3>
             <p>
               For help, reply <span className="font-semibold">HELP</span> to any text message or contact us at{' '}
-              <a href="mailto:baharehlopez@gmail.com" className="text-[var(--color-primary)] hover:underline">
-                baharehlopez@gmail.com
+              <a href="mailto:purewayoc@gmail.com" className="text-[var(--color-primary)] hover:underline">
+                purewayoc@gmail.com
               </a>{' '}
               or{' '}
               <a href="tel:4084021920" className="text-[var(--color-primary)] hover:underline">
@@ -213,8 +213,8 @@ export default function TermsOfServicePage() {
             <ul className="mt-3 space-y-1">
               <li>
                 Email:{' '}
-                <a href="mailto:baharehlopez@gmail.com" className="text-[var(--color-primary)] hover:underline">
-                  baharehlopez@gmail.com
+                <a href="mailto:purewayoc@gmail.com" className="text-[var(--color-primary)] hover:underline">
+                  purewayoc@gmail.com
                 </a>
               </li>
               <li>

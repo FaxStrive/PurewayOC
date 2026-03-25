@@ -89,7 +89,7 @@ const localBusinessSchema = {
         '@type': 'Service',
         name: 'Reverse Osmosis Systems',
         description:
-          'Under-sink reverse osmosis drinking water systems with multi-stage filtration and remineralization. Professional installation in Orange County.',
+          'Under-sink reverse osmosis drinking water systems with alkaline remineralization for mineral-rich, elevated-pH water. Professional installation in Orange County.',
         url: `${SITE_URL}/services/reverse-osmosis`,
         areaServed: { '@type': 'AdministrativeArea', name: 'Orange County, CA' },
       },
@@ -202,7 +202,7 @@ const SERVICE_FAQS: Record<string, Array<{ question: string; answer: string }>> 
     {
       question: 'Does reverse osmosis remove fluoride and other minerals?',
       answer:
-        'Yes, RO membranes remove fluoride, nitrates, arsenic, lead, and most dissolved minerals. PureWay OC systems include a remineralization stage that adds back calcium and magnesium after filtration for balanced pH and great taste, preventing the flat or acidic water associated with standard RO systems.',
+        'Yes, RO membranes remove fluoride, nitrates, arsenic, lead, and most dissolved minerals. PureWay OC systems include an alkaline remineralization stage that restores calcium, magnesium, and essential minerals after filtration, elevating the pH for alkaline, mineral-rich water — preventing the flat or acidic taste associated with standard RO systems.',
     },
     {
       question: 'How much water does reverse osmosis waste?',
@@ -423,7 +423,7 @@ function getServiceFAQSchema(pathname: string) {
 }
 
 export default function SchemaMarkup() {
-  const pathname = usePathname()
+  const pathname = usePathname() || '/'
   const schemas: object[] = []
 
   // Homepage: LocalBusiness + WebSite

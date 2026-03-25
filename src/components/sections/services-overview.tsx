@@ -29,7 +29,7 @@ const services = [
   {
     title: 'Reverse Osmosis',
     description:
-      'Advanced RO drinking water, purified and remineralized for balanced, great-tasting water.',
+      'Advanced RO drinking water with alkaline remineralization. Purified, then enriched with calcium and magnesium for balanced, elevated-pH water.',
     icon: Droplets,
     large: true,
     href: '/services/reverse-osmosis',

@@ -11,7 +11,7 @@ import { Phone, Mail, Clock, MapPin, CalendarDays } from 'lucide-react'
 /* ------------------------------------------------------------------ */
 const contactDetails = [
   { icon: Phone, label: 'Phone', value: '(408) 402-1920', href: 'tel:4084021920' },
-  { icon: Mail, label: 'Email', value: 'baharehlopez@gmail.com', href: 'mailto:baharehlopez@gmail.com' },
+  { icon: Mail, label: 'Email', value: 'purewayoc@gmail.com', href: 'mailto:purewayoc@gmail.com' },
   { icon: Clock, label: 'Response Time', value: 'Same Day', href: null },
   { icon: MapPin, label: 'Service Area', value: 'Orange County, CA', href: null },
   { icon: CalendarDays, label: 'Hours', value: 'By Appointment', href: null },

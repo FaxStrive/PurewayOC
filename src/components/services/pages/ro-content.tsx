@@ -33,9 +33,9 @@ const steps = [
   },
   {
     number: 3,
-    title: 'Remineralization',
+    title: 'Alkaline Remineralization',
     description:
-      'Adds back calcium and magnesium for balanced pH and great taste. No flat or acidic water.',
+      'Restores calcium, magnesium, and essential minerals to elevate pH for alkaline, mineral-rich water. No flat or acidic taste.',
     icon: Sparkles,
   },
   {
@@ -64,7 +64,7 @@ const faqs = [
   {
     question: 'Do I lose beneficial minerals with RO?',
     answer:
-      'Standard RO strips all minerals, which is why our system includes a remineralization stage. It adds back calcium and magnesium after purification, giving you balanced pH and great-tasting water without the contaminants.',
+      'Standard RO strips all minerals, which is why our system includes an alkaline remineralization stage. It restores calcium, magnesium, and essential minerals after purification, raising the pH to create alkaline, mineral-rich water that tastes great — without the contaminants.',
   },
   {
     question: 'How often do I need to change the filters?',
@@ -188,7 +188,8 @@ export default function ROContent() {
             transition={{ duration: 0.6, delay: 0.4, ease }}
           >
             The purest drinking water from your kitchen tap. Multi-stage
-            filtration with remineralization for balanced, great-tasting water.
+            filtration with alkaline remineralization — purified, then enriched
+            with essential minerals for elevated-pH, great-tasting water.
           </motion.p>
         </div>
       </section>

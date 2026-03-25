@@ -6,14 +6,14 @@ import ROContent from '@/components/services/pages/ro-content'
 export const metadata: Metadata = {
   title: 'Reverse Osmosis Systems | PureWay OC',
   description:
-    'Under-sink reverse osmosis systems for the purest drinking water from your kitchen tap. Multi-stage filtration with remineralization. Professional installation in Orange County.',
+    'Under-sink reverse osmosis systems with alkaline remineralization for the purest, mineral-rich drinking water. Multi-stage filtration with elevated pH. Professional installation in Orange County.',
   keywords:
-    'reverse osmosis Orange County, under sink RO system, drinking water purification OC, RO water filter installation',
+    'reverse osmosis Orange County, alkaline water Orange County, under sink RO system, drinking water purification OC, RO water filter installation, remineralized water',
   alternates: { canonical: 'https://purewayoc.com/services/reverse-osmosis' },
   openGraph: {
     title: 'Reverse Osmosis Systems | PureWay OC',
     description:
-      'The purest drinking water from your kitchen tap. Multi-stage RO filtration with remineralization for balanced, great-tasting water.',
+      'The purest drinking water from your kitchen tap. Multi-stage RO filtration with alkaline remineralization for mineral-rich, elevated-pH water.',
     type: 'website',
     locale: 'en_US',
     url: 'https://purewayoc.com/services/reverse-osmosis',

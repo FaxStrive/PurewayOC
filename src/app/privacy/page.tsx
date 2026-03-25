@@ -96,8 +96,8 @@ export default function PrivacyPolicyPage() {
               We retain your personal information for as long as you remain subscribed to our
               services or text messaging program. You may request deletion of your data at any time
               by contacting us at{' '}
-              <a href="mailto:baharehlopez@gmail.com" className="text-[var(--color-primary)] hover:underline">
-                baharehlopez@gmail.com
+              <a href="mailto:purewayoc@gmail.com" className="text-[var(--color-primary)] hover:underline">
+                purewayoc@gmail.com
               </a>.
             </p>
           </section>
@@ -135,8 +135,8 @@ export default function PrivacyPolicyPage() {
               </li>
               <li>
                 Emailing us at{' '}
-                <a href="mailto:baharehlopez@gmail.com" className="text-[var(--color-primary)] hover:underline">
-                  baharehlopez@gmail.com
+                <a href="mailto:purewayoc@gmail.com" className="text-[var(--color-primary)] hover:underline">
+                  purewayoc@gmail.com
                 </a>
               </li>
               <li>
@@ -161,8 +161,8 @@ export default function PrivacyPolicyPage() {
               If you are a California resident, you have the right to know what personal information
               we collect, request its deletion, and opt out of its sale. We do not sell your personal
               information. To exercise your rights, contact us at{' '}
-              <a href="mailto:baharehlopez@gmail.com" className="text-[var(--color-primary)] hover:underline">
-                baharehlopez@gmail.com
+              <a href="mailto:purewayoc@gmail.com" className="text-[var(--color-primary)] hover:underline">
+                purewayoc@gmail.com
               </a>.
             </p>
           </section>
@@ -215,8 +215,8 @@ export default function PrivacyPolicyPage() {
             <ul className="mt-3 space-y-1">
               <li>
                 Email:{' '}
-                <a href="mailto:baharehlopez@gmail.com" className="text-[var(--color-primary)] hover:underline">
-                  baharehlopez@gmail.com
+                <a href="mailto:purewayoc@gmail.com" className="text-[var(--color-primary)] hover:underline">
+                  purewayoc@gmail.com
                 </a>
               </li>
               <li>
