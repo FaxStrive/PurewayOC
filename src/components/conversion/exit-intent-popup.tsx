@@ -54,17 +54,6 @@ export default function ExitIntentPopup() {
       }
     }
 
-    // Reset pause timer on scroll activity
-    const handleScrollReset = () => {
-      if (pauseTimer) {
-        clearTimeout(pauseTimer)
-        pauseTimer = null
-        triggered = false
-        // Re-check position
-        handleScroll()
-      }
-    }
-
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => {
       window.removeEventListener('scroll', handleScroll)
