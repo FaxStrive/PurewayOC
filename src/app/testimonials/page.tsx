@@ -5,6 +5,7 @@ import TestimonialsHero from '@/components/testimonials/testimonials-hero'
 import ReviewCards from '@/components/testimonials/review-cards'
 import CertBadges from '@/components/testimonials/cert-badges'
 import TestimonialsCTA from '@/components/testimonials/testimonials-cta'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 export const metadata: Metadata = {
   title: 'Customer Reviews | 5-Star Water Filtration OC',
@@ -29,6 +30,12 @@ export default function TestimonialsPage() {
       <main>
         <TestimonialsHero />
         <ReviewCards />
+        <InlineCTA
+          variant="banner"
+          message="Join 500+ Happy Homeowners"
+          text="Get Your Free Water Test"
+          phone="(408) 402-1920"
+        />
         <CertBadges />
         <TestimonialsCTA />
       </main>

@@ -3,6 +3,7 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
+import InlineCTA from '@/components/conversion/inline-cta'
 import {
   ChevronRight,
   Droplets,
@@ -252,6 +253,13 @@ export default function WellWaterContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA
+        variant="banner"
+        message="Worried About Your Well Water? Test It Free"
+        text="Book Free Well Water Test"
+        phone="(408) 402-1920"
+      />
 
       {/* Our Process - Vertical Timeline */}
       <section

@@ -4,6 +4,7 @@ import Footer from '@/components/layout/footer'
 import FAQHero from '@/components/faq/faq-hero'
 import FAQAccordion from '@/components/faq/faq-accordion'
 import FAQCTA from '@/components/faq/faq-cta'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 export const metadata: Metadata = {
   title: 'FAQ | Water Filtration Questions Answered',
@@ -28,6 +29,12 @@ export default function FAQPage() {
       <main>
         <FAQHero />
         <FAQAccordion />
+        <InlineCTA
+          variant="button"
+          text="Talk to an Expert"
+          message="Still Have Questions?"
+          trustLine="Our water specialists are happy to help - no pressure"
+        />
         <FAQCTA />
       </main>
       <Footer />

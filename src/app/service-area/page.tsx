@@ -5,6 +5,7 @@ import AreaHero from '@/components/service-area/area-hero'
 import CitiesGrid from '@/components/service-area/cities-grid'
 import OCWaterInfo from '@/components/service-area/oc-water-info'
 import AreaCTA from '@/components/service-area/area-cta'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 export const metadata: Metadata = {
   title: 'Service Area | Orange County Water Filtration',
@@ -28,6 +29,11 @@ export default function ServiceAreaPage() {
       <main>
         <AreaHero />
         <CitiesGrid />
+        <InlineCTA
+          variant="button"
+          text="Check If We Service Your Area"
+          trustLine="Same-day response for all Orange County cities"
+        />
         <OCWaterInfo />
         <AreaCTA />
       </main>

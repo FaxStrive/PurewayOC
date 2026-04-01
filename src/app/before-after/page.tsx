@@ -5,6 +5,7 @@ import GalleryHero from '@/components/before-after/gallery-hero'
 import InstallationGallery from '@/components/before-after/installation-gallery'
 import WaterTestResults from '@/components/before-after/water-test-results'
 import GalleryCTA from '@/components/before-after/gallery-cta'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 export const metadata: Metadata = {
   title: 'Installation Gallery | PureWay OC',
@@ -29,6 +30,12 @@ export default function BeforeAfterPage() {
       <main>
         <GalleryHero />
         <InstallationGallery />
+        <InlineCTA
+          variant="button"
+          text="Want Results Like These?"
+          message="Every Installation Backed by Our Lifetime Warranty"
+          trustLine="Free water test included with every consultation"
+        />
         <WaterTestResults />
         <GalleryCTA />
       </main>

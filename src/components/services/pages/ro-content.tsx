@@ -13,6 +13,7 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 const ease = [0.25, 0.46, 0.45, 0.94] as const
 
@@ -303,6 +304,13 @@ export default function ROContent() {
         </div>
       </section>
 
+      <InlineCTA
+        variant="button"
+        text="Get an RO System Quote"
+        message="Pure Drinking Water From Your Kitchen Tap"
+        trustLine="Installation typically completed in under 2 hours"
+      />
+
       {/* ── SPLIT SECTION: PERFECT FOR + IMAGE ── */}
       <section
         ref={splitRef}
@@ -372,6 +380,13 @@ export default function ROContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA
+        variant="banner"
+        message="Ready for the Purest Water in Your Home?"
+        text="Schedule Free Consultation"
+        phone="(408) 402-1920"
+      />
 
       {/* ── FAQ ACCORDION ── */}
       <section

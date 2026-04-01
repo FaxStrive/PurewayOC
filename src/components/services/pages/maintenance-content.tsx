@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
 import { ChevronRight, Shield, Wrench, Clock, X } from 'lucide-react'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 const warrantyCards = [
   {
@@ -169,6 +170,13 @@ export default function MaintenanceContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA
+        variant="button"
+        text="Schedule a Maintenance Visit"
+        message="Keep Your System Running at Peak Performance"
+        trustLine="Covered under your lifetime warranty"
+      />
 
       {/* What You DON'T Have To Do */}
       <section

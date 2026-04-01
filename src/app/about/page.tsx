@@ -6,6 +6,7 @@ import BarahehStory from '@/components/about/bahareh-story'
 import ToppenHeritage from '@/components/about/toppen-heritage'
 import CompanyValues from '@/components/about/company-values'
 import AboutCTA from '@/components/about/about-cta'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 export const metadata: Metadata = {
   title: 'About PureWay OC | Our Story & Mission',
@@ -31,6 +32,12 @@ export default function AboutPage() {
         <AboutHero />
         <BarahehStory />
         <ToppenHeritage />
+        <InlineCTA
+          variant="button"
+          text="Work With Our Family"
+          message="40+ Years of Water Purification Expertise"
+          trustLine="Family-owned, locally operated in Orange County"
+        />
         <CompanyValues />
         <AboutCTA />
       </main>

@@ -8,6 +8,21 @@ const SchemaMarkup = dynamic(() => import('@/components/seo/schema-markup'), {
   ssr: false,
 });
 
+const MobileCallBar = dynamic(() => import('@/components/conversion/mobile-call-bar'), {
+  ssr: false,
+});
+const ExitIntentPopup = dynamic(() => import('@/components/conversion/exit-intent-popup'), {
+  ssr: false,
+});
+const SocialProofToast = dynamic(() => import('@/components/conversion/social-proof-toast'), {
+  ssr: false,
+});
+const ScrollRevealCTA = dynamic(() => import('@/components/conversion/scroll-reveal-cta'), {
+  ssr: false,
+});
+const CornerOfferPeek = dynamic(() => import('@/components/conversion/corner-offer-peek'), {
+  ssr: false,
+});
 const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-body",
@@ -74,6 +89,11 @@ export default function RootLayout({
       <body className={`${dmSans.variable} ${dmSerif.variable} antialiased`}>
         <SchemaMarkup />
         {children}
+        <MobileCallBar />
+        <ExitIntentPopup />
+        <SocialProofToast />
+        <ScrollRevealCTA />
+        <CornerOfferPeek />
 </body>
     </html>
   );

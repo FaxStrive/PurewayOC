@@ -3,6 +3,7 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
+import InlineCTA from '@/components/conversion/inline-cta'
 import {
   ChevronRight,
   Calendar,
@@ -191,6 +192,13 @@ export default function FreeWaterTestingContent() {
         </div>
       </section>
 
+      <InlineCTA
+        variant="banner"
+        message="Find Out What's in Your Water Today"
+        text="Book Your Free Test"
+        phone="(408) 402-1920"
+      />
+
       {/* Two Test Options - Side-by-side comparison */}
       <section
         ref={optionsRef}
@@ -295,6 +303,12 @@ export default function FreeWaterTestingContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA
+        variant="button"
+        text="Schedule Your Free Water Test"
+        trustLine="No cost, no pressure - just the truth about your water"
+      />
 
       {/* How It Works - 3 steps in a row */}
       <section

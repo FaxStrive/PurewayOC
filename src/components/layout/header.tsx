@@ -7,6 +7,11 @@ import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Phone, Menu, ChevronDown } from 'lucide-react'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
+import dynamic from 'next/dynamic'
+
+const TimedTopBar = dynamic(() => import('@/components/conversion/timed-top-bar'), {
+  ssr: false,
+})
 
 const serviceLinks = [
   { href: '/services/whole-house-filtration', label: 'Whole-House Filtration' },
@@ -144,16 +149,18 @@ export default function Header() {
   }, [])
 
   return (
-    <motion.header
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.1 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled || !isHomePage
-          ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-[var(--color-border)]'
-          : 'bg-transparent'
-      }`}
-    >
+    <div className="fixed top-0 left-0 right-0 z-[60]">
+      <TimedTopBar />
+      <motion.header
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
+        className={`w-full transition-all duration-500 ${
+          scrolled || !isHomePage
+            ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-[var(--color-border)]'
+            : 'bg-transparent'
+        }`}
+      >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -295,5 +302,6 @@ export default function Header() {
         </div>
       </div>
     </motion.header>
+    </div>
   )
 }

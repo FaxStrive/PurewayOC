@@ -9,6 +9,7 @@ import Stats from '@/components/sections/stats'
 import Process from '@/components/sections/process'
 import Testimonials from '@/components/sections/testimonials'
 import FinalCTA from '@/components/sections/final-cta'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 import type { Metadata } from 'next';
 
@@ -36,10 +37,27 @@ export default function Home() {
         <Hero />
         <TrustBar />
         <WaterProblems />
+        <InlineCTA
+          variant="banner"
+          message="Worried About Your Water? Get a Free Test"
+          text="Schedule Free Test"
+          phone="(408) 402-1920"
+        />
         <ThreeStageSystem />
         <ServicesOverview />
+        <InlineCTA
+          variant="button"
+          text="Get My Free Water Analysis"
+          trustLine="No obligation - takes less than 60 seconds"
+        />
         <Stats />
         <Process />
+        <InlineCTA
+          variant="banner"
+          message="Ready to Get Started? Schedule Your Free Test"
+          text="Get Started Today"
+          phone="(408) 402-1920"
+        />
         <Testimonials />
         <FinalCTA />
       </main>

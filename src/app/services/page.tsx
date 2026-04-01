@@ -6,6 +6,7 @@ import ServiceDetailCards from '@/components/services/service-detail-cards'
 import TechComparison from '@/components/services/tech-comparison'
 import WaterQualityChecker from '@/components/services/water-quality-checker'
 import ServicesCTA from '@/components/services/services-cta'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 export const metadata: Metadata = {
   title: 'Water Filtration Services Orange County',
@@ -32,6 +33,12 @@ export default function ServicesPage() {
       <main>
         <ServicesHero />
         <ServiceDetailCards />
+        <InlineCTA
+          variant="banner"
+          message="Not Sure Which System? Get a Free Consultation"
+          text="Get Free Consultation"
+          phone="(408) 402-1920"
+        />
         <TechComparison />
         <WaterQualityChecker />
         <ServicesCTA />

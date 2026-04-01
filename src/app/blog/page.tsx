@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllPosts } from '@/lib/blog-posts'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 export const metadata: Metadata = {
   title: 'Blog | PureWay OC',
@@ -66,6 +67,13 @@ export default function BlogPage() {
             </Link>
           ))}
         </div>
+
+        <InlineCTA
+          variant="banner"
+          message="Concerned About Your Water Quality? We Test for Free"
+          text="Book Free Water Test"
+          phone="(408) 402-1920"
+        />
       </div>
     </main>
   )

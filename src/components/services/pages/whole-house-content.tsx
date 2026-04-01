@@ -11,6 +11,7 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import InlineCTA from '@/components/conversion/inline-cta'
 
 const ease = [0.25, 0.46, 0.45, 0.94] as const
 
@@ -358,6 +359,13 @@ export default function WholeHouseContent() {
         </div>
       </section>
 
+      <InlineCTA
+        variant="banner"
+        message="See What Our 3-Stage System Can Do for Your Home"
+        text="Get a Free Water Analysis"
+        phone="(408) 402-1920"
+      />
+
       {/* ── COMPARISON TABLE ── */}
       <section
         ref={compRef}
@@ -444,6 +452,12 @@ export default function WholeHouseContent() {
           </motion.div>
         </div>
       </section>
+
+      <InlineCTA
+        variant="button"
+        text="Get Your Custom Recommendation"
+        trustLine="Free in-home consultation - no obligation"
+      />
 
       {/* ── CERTIFICATIONS BAR ── */}
       <section

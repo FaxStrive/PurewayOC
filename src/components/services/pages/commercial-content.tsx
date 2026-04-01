@@ -3,6 +3,7 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
+import InlineCTA from '@/components/conversion/inline-cta'
 import {
   UtensilsCrossed,
   Stethoscope,
@@ -248,6 +249,13 @@ export default function CommercialContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA
+        variant="banner"
+        message="Need a Custom Commercial Solution?"
+        text="Request a Quote"
+        phone="(408) 402-1920"
+      />
 
       {/* Why Commercial Section - Horizontal Feature Bars */}
       <section

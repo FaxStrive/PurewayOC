@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import InlineCTA from '@/components/conversion/inline-cta'
 import {
   ShowerHead,
   GlassWater,
@@ -206,6 +207,13 @@ export default function SoftenerContent() {
         </div>
       </section>
 
+      <InlineCTA
+        variant="banner"
+        message="Hard Water Damaging Your Home? Let Us Fix It"
+        text="Schedule Free Water Test"
+        phone="(408) 402-1920"
+      />
+
       {/* Solution Section - Two Column */}
       <section
         ref={solutionRef}
@@ -283,6 +291,12 @@ export default function SoftenerContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA
+        variant="button"
+        text="Get a Salt-Free Solution"
+        trustLine="No chemicals, no wastewater, no maintenance"
+      />
 
       {/* Stats Row */}
       <section
