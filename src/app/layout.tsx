@@ -85,6 +85,12 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preload" as="image" href="/images/hero-bg.jpg" />
+        <script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="69cedf38e39b25054744e349"
+          async
+        />
       </head>
       <body className={`${dmSans.variable} ${dmSerif.variable} antialiased`}>
         <SchemaMarkup />
