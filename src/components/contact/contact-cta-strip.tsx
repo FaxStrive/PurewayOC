@@ -42,7 +42,7 @@ export default function ContactCTAStrip() {
 
         {/* CTA phone button */}
         <motion.a
-          href="tel:4084021920"
+          href="tel:9499989443"
           className="cta-strip-shine relative inline-flex items-center gap-2.5 rounded-lg border border-white/30 bg-white/[0.08] backdrop-blur-sm px-7 py-3 font-heading text-base font-semibold text-white overflow-hidden transition-transform duration-300 hover:scale-[1.03]"
           initial={{ opacity: 0, y: 10 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -53,7 +53,7 @@ export default function ContactCTAStrip() {
           }}
         >
           <Phone className="h-4 w-4" />
-          <span className="relative z-10">(408) 402-1920</span>
+          <span className="relative z-10">(949) 998-9443</span>
         </motion.a>
       </div>
 

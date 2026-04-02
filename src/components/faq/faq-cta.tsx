@@ -86,10 +86,10 @@ export default function FAQCTA() {
         >
           <Phone className="h-4 w-4 text-[var(--color-primary)]" />
           <a
-            href="tel:4084021920"
+            href="tel:9499989443"
             className="font-body text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-primary)]"
           >
-            (408) 402-1920
+            (949) 998-9443
           </a>
         </motion.div>
       </div>

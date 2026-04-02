@@ -363,7 +363,7 @@ export default function WholeHouseContent() {
         variant="banner"
         message="See What Our 3-Stage System Can Do for Your Home"
         text="Get a Free Water Analysis"
-        phone="(408) 402-1920"
+        phone="(949) 998-9443"
       />
 
       {/* ── COMPARISON TABLE ── */}

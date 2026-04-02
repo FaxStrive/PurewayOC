@@ -113,11 +113,11 @@ export default function ExitIntentPopup() {
               </Link>
 
               <a
-                href="tel:4084021920"
+                href="tel:9499989443"
                 className="flex items-center justify-center gap-2 mt-4 text-sm font-medium text-[var(--color-text-secondary)] hover:text-[var(--color-primary)] transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                Or call (408) 402-1920
+                Or call (949) 998-9443
               </a>
 
               <div className="flex items-center justify-center gap-4 mt-6 pt-5 border-t border-[var(--color-border)]">

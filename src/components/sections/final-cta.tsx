@@ -119,10 +119,10 @@ export default function FinalCTA() {
           >
             <Phone className="h-4 w-4 text-white/70" />
             <a
-              href="tel:4084021920"
+              href="tel:9499989443"
               className="font-body text-sm text-white/70 transition-colors hover:text-white"
             >
-              (408) 402-1920 -- Call or text anytime
+              (949) 998-9443 -- Call or text anytime
             </a>
           </motion.div>
         </div>

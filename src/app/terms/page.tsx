@@ -84,8 +84,8 @@ export default function TermsOfServicePage() {
             </h3>
             <p>
               You may opt out at any time by texting <span className="font-semibold">STOP</span> to{' '}
-              <a href="tel:4084021920" className="text-[var(--color-primary)] hover:underline">
-                (408) 402-1920
+              <a href="tel:9499989443" className="text-[var(--color-primary)] hover:underline">
+                (949) 998-9443
               </a>. You may also reply with: STOPALL, UNSUBSCRIBE, CANCEL, END, or QUIT. After
               opting out, you will receive one final confirmation message. No further messages will
               be sent unless you re-subscribe.
@@ -100,8 +100,8 @@ export default function TermsOfServicePage() {
                 purewayoc@gmail.com
               </a>{' '}
               or{' '}
-              <a href="tel:4084021920" className="text-[var(--color-primary)] hover:underline">
-                (408) 402-1920
+              <a href="tel:9499989443" className="text-[var(--color-primary)] hover:underline">
+                (949) 998-9443
               </a>.
             </p>
 
@@ -219,8 +219,8 @@ export default function TermsOfServicePage() {
               </li>
               <li>
                 Phone:{' '}
-                <a href="tel:4084021920" className="text-[var(--color-primary)] hover:underline">
-                  (408) 402-1920
+                <a href="tel:9499989443" className="text-[var(--color-primary)] hover:underline">
+                  (949) 998-9443
                 </a>
               </li>
             </ul>

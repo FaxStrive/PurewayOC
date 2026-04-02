@@ -141,8 +141,8 @@ export default function PrivacyPolicyPage() {
               </li>
               <li>
                 Calling us at{' '}
-                <a href="tel:4084021920" className="text-[var(--color-primary)] hover:underline">
-                  (408) 402-1920
+                <a href="tel:9499989443" className="text-[var(--color-primary)] hover:underline">
+                  (949) 998-9443
                 </a>
               </li>
             </ul>
@@ -221,8 +221,8 @@ export default function PrivacyPolicyPage() {
               </li>
               <li>
                 Phone:{' '}
-                <a href="tel:4084021920" className="text-[var(--color-primary)] hover:underline">
-                  (408) 402-1920
+                <a href="tel:9499989443" className="text-[var(--color-primary)] hover:underline">
+                  (949) 998-9443
                 </a>
               </li>
             </ul>

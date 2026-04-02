@@ -258,7 +258,7 @@ export default function WellWaterContent() {
         variant="banner"
         message="Worried About Your Well Water? Test It Free"
         text="Book Free Well Water Test"
-        phone="(408) 402-1920"
+        phone="(949) 998-9443"
       />
 
       {/* Our Process - Vertical Timeline */}

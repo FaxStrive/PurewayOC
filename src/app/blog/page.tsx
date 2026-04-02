@@ -72,7 +72,7 @@ export default function BlogPage() {
           variant="banner"
           message="Concerned About Your Water Quality? We Test for Free"
           text="Book Free Water Test"
-          phone="(408) 402-1920"
+          phone="(949) 998-9443"
         />
       </div>
     </main>

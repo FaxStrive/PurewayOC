@@ -47,11 +47,11 @@ export default function TimedTopBar() {
                 <span className="font-bold">Limited Time:</span> Free Water Test for First-Time Customers
               </p>
               <a
-                href="tel:4084021920"
+                href="tel:9499989443"
                 className="hidden sm:flex items-center gap-1.5 text-white/90 hover:text-white text-xs font-semibold transition-colors flex-shrink-0 border-l border-white/20 pl-4 ml-2"
               >
                 <Phone className="w-3.5 h-3.5" />
-                (408) 402-1920
+                (949) 998-9443
               </a>
             </div>
 

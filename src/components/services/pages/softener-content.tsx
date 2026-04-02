@@ -211,7 +211,7 @@ export default function SoftenerContent() {
         variant="banner"
         message="Hard Water Damaging Your Home? Let Us Fix It"
         text="Schedule Free Water Test"
-        phone="(408) 402-1920"
+        phone="(949) 998-9443"
       />
 
       {/* Solution Section - Two Column */}

@@ -214,7 +214,7 @@ export default function Header() {
           {/* Right side: Phone + CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:4084021920"
+              href="tel:9499989443"
               className={`flex items-center gap-2 text-sm font-medium transition-colors ${
                 useDarkNav
                   ? 'text-[var(--color-text-primary)] hover:text-[var(--color-primary)]'
@@ -222,7 +222,7 @@ export default function Header() {
               }`}
             >
               <Phone className="w-4 h-4" />
-              (408) 402-1920
+              (949) 998-9443
             </a>
             <Link
               href="/contact"
@@ -282,11 +282,11 @@ export default function Header() {
                 </nav>
                 <div className="p-6 border-t border-[var(--color-border)] space-y-4">
                   <a
-                    href="tel:4084021920"
+                    href="tel:9499989443"
                     className="flex items-center gap-3 text-[var(--color-text-primary)] font-medium"
                   >
                     <Phone className="w-5 h-5 text-[var(--color-primary)]" />
-                    (408) 402-1920
+                    (949) 998-9443
                   </a>
                   <Link
                     href="/contact"

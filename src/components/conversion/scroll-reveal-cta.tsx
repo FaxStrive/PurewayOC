@@ -76,11 +76,11 @@ export default function ScrollRevealCTA() {
 
               <div className="flex items-center gap-3 flex-shrink-0">
                 <a
-                  href="tel:4084021920"
+                  href="tel:9499989443"
                   className="hidden sm:flex items-center gap-1.5 text-white/80 text-sm font-medium hover:text-white transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  (408) 402-1920
+                  (949) 998-9443
                 </a>
                 <Link
                   href="/contact"

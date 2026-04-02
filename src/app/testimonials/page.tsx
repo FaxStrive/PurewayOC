@@ -34,7 +34,7 @@ export default function TestimonialsPage() {
           variant="banner"
           message="Join 500+ Happy Homeowners"
           text="Get Your Free Water Test"
-          phone="(408) 402-1920"
+          phone="(949) 998-9443"
         />
         <CertBadges />
         <TestimonialsCTA />

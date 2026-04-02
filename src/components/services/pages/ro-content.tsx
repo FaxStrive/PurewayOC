@@ -385,7 +385,7 @@ export default function ROContent() {
         variant="banner"
         message="Ready for the Purest Water in Your Home?"
         text="Schedule Free Consultation"
-        phone="(408) 402-1920"
+        phone="(949) 998-9443"
       />
 
       {/* ── FAQ ACCORDION ── */}

@@ -41,7 +41,7 @@ export default function Home() {
           variant="banner"
           message="Worried About Your Water? Get a Free Test"
           text="Schedule Free Test"
-          phone="(408) 402-1920"
+          phone="(949) 998-9443"
         />
         <ThreeStageSystem />
         <ServicesOverview />
@@ -56,7 +56,7 @@ export default function Home() {
           variant="banner"
           message="Ready to Get Started? Schedule Your Free Test"
           text="Get Started Today"
-          phone="(408) 402-1920"
+          phone="(949) 998-9443"
         />
         <Testimonials />
         <FinalCTA />

@@ -196,7 +196,7 @@ export default function FreeWaterTestingContent() {
         variant="banner"
         message="Find Out What's in Your Water Today"
         text="Book Your Free Test"
-        phone="(408) 402-1920"
+        phone="(949) 998-9443"
       />
 
       {/* Two Test Options - Side-by-side comparison */}

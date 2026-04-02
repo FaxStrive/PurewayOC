@@ -37,7 +37,7 @@ export default function ServicesPage() {
           variant="banner"
           message="Not Sure Which System? Get a Free Consultation"
           text="Get Free Consultation"
-          phone="(408) 402-1920"
+          phone="(949) 998-9443"
         />
         <TechComparison />
         <WaterQualityChecker />

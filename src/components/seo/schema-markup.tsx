@@ -4,8 +4,8 @@ import { usePathname } from 'next/navigation'
 
 const SITE_URL = 'https://purewayoc.com'
 const BUSINESS_NAME = 'PureWay OC'
-const PHONE = '+1-408-402-1920'
-const PHONE_DISPLAY = '(408) 402-1920'
+const PHONE = '+1-949-998-9443'
+const PHONE_DISPLAY = '(949) 998-9443'
 const DATE_MODIFIED = '2026-03-18'
 
 // Orange County cities served

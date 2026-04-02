@@ -32,14 +32,14 @@ export default function MobileCallBar() {
         >
           <div className="grid grid-cols-3 bg-[var(--color-secondary)] shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
             <a
-              href="tel:4084021920"
+              href="tel:9499989443"
               className="flex flex-col items-center justify-center gap-1 py-3 text-white hover:bg-[var(--color-secondary-light)] transition-colors"
             >
               <Phone className="w-5 h-5" />
               <span className="text-xs font-semibold">Call Now</span>
             </a>
             <a
-              href="sms:4084021920"
+              href="sms:9499989443"
               className="flex flex-col items-center justify-center gap-1 py-3 text-white hover:bg-[var(--color-secondary-light)] transition-colors border-x border-white/10"
             >
               <MessageSquare className="w-5 h-5" />

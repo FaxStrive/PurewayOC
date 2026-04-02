@@ -7,8 +7,8 @@ import { Phone, Mail, Clock } from 'lucide-react'
 const quickItems = [
   {
     icon: Phone,
-    text: '(408) 402-1920',
-    href: 'tel:4084021920',
+    text: '(949) 998-9443',
+    href: 'tel:9499989443',
   },
   {
     icon: Mail,
