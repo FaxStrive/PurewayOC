@@ -1,6 +1,8 @@
 import Header from '@/components/layout/header'
 import Footer from '@/components/layout/footer'
 import Hero from '@/components/sections/hero'
+import EWGWaterChecker from '@/components/sections/ewg-water-checker'
+import SavingsCalculator from '@/components/sections/savings-calculator'
 import TrustBar from '@/components/sections/trust-bar'
 import WaterProblems from '@/components/sections/water-problems'
 import ThreeStageSystem from '@/components/sections/three-stage-system'
@@ -35,6 +37,8 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <EWGWaterChecker />
+        <SavingsCalculator />
         <TrustBar />
         <WaterProblems />
         <InlineCTA
