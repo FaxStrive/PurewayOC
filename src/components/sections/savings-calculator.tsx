@@ -8,11 +8,6 @@ import Link from 'next/link'
 interface CalculatorResults {
   monthlySavings: number
   annualSavings: number
-  systemName: string
-  systemCost: number
-  paybackMonths: number
-  tenYearSavings: number
-  monthlyFinancing: number
 }
 
 const calculateSavings = (householdSize: number, bathrooms: number): CalculatorResults => {
@@ -22,21 +17,7 @@ const calculateSavings = (householdSize: number, bathrooms: number): CalculatorR
   const monthlySavings = bottledWaterSavings + applianceSavings + soapSavings
   const annualSavings = monthlySavings * 12
 
-  let systemName = 'Whole House Filtration'
-  let systemCost = 2995
-  if (householdSize <= 2) {
-    systemName = 'Reverse Osmosis System'
-    systemCost = 899
-  } else if (householdSize <= 3) {
-    systemName = 'Water Softener + RO Combo'
-    systemCost = 2499
-  }
-
-  const paybackMonths = Math.ceil(systemCost / monthlySavings)
-  const tenYearSavings = monthlySavings * 120 - systemCost
-  const monthlyFinancing = Math.ceil(systemCost / 48)
-
-  return { monthlySavings, annualSavings, systemName, systemCost, paybackMonths, tenYearSavings, monthlyFinancing }
+  return { monthlySavings, annualSavings }
 }
 
 const ease = [0.25, 0.46, 0.45, 0.94] as const
@@ -196,6 +177,19 @@ export default function SavingsCalculator() {
                       </motion.p>
                     </div>
 
+                    {/* Annual Savings */}
+                    <div className="mb-6 text-center">
+                      <p className="mb-1 font-body text-sm text-[var(--color-text-secondary)]">Annual Savings</p>
+                      <motion.p
+                        className="font-heading text-2xl font-semibold text-[var(--color-text-primary)]"
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.15 }}
+                      >
+                        ${results.annualSavings.toLocaleString()}/year
+                      </motion.p>
+                    </div>
+
                     {/* Savings breakdown */}
                     <div className="mb-6 grid gap-3 sm:grid-cols-3">
                       {[
@@ -216,42 +210,6 @@ export default function SavingsCalculator() {
                         </motion.div>
                       ))}
                     </div>
-
-                    {/* Recommended System */}
-                    <motion.div
-                      className="mb-6 rounded-lg border-2 border-[var(--color-primary)] bg-white p-4"
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.4, ease }}
-                    >
-                      <p className="mb-1 font-body text-xs font-medium uppercase tracking-wider text-[var(--color-primary)]">
-                        Recommended System
-                      </p>
-                      <p className="font-heading text-lg font-semibold text-[var(--color-text-primary)]">{results.systemName}</p>
-                      <p className="font-body text-sm text-[var(--color-text-secondary)]">
-                        Starting at ${results.systemCost.toLocaleString()}
-                      </p>
-                    </motion.div>
-
-                    {/* Stats grid */}
-                    <div className="mb-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
-                      <div className="rounded-lg border border-[var(--color-border)] bg-white p-3 text-center">
-                        <p className="mb-1 font-body text-xs text-[var(--color-text-muted)]">Payback Period</p>
-                        <p className="font-heading text-lg font-bold text-[var(--color-text-primary)]">{results.paybackMonths} months</p>
-                      </div>
-                      <div className="rounded-lg border border-[var(--color-border)] bg-white p-3 text-center">
-                        <p className="mb-1 font-body text-xs text-[var(--color-text-muted)]">10-Year Net Savings</p>
-                        <p className="font-heading text-lg font-bold text-[var(--color-accent)]">${results.tenYearSavings.toLocaleString()}</p>
-                      </div>
-                      <div className="rounded-lg border border-[var(--color-border)] bg-white p-3 text-center">
-                        <p className="mb-1 font-body text-xs text-[var(--color-text-muted)]">Monthly Financing</p>
-                        <p className="font-heading text-lg font-bold text-[var(--color-text-primary)]">${results.monthlyFinancing}/mo</p>
-                      </div>
-                    </div>
-
-                    <p className="mb-6 text-center font-body text-xs text-[var(--color-text-muted)]">
-                      $0 down financing available
-                    </p>
 
                     {/* CTAs */}
                     <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
