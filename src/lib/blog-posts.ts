@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Orange County Water Quality: What Is Really Coming Out of Your Tap?',
     description: 'Orange County sources its water from groundwater basins, Colorado River imports, and State Water Project deliveries. Each source brings different contaminants. Here is what local testing data reveals.',
     date: 'March 14, 2026',
-    author: 'PureWay OC Team',
+    author: 'David Chen',
     category: 'Water Quality',
     image: '/images/blog/oc-water-quality.jpg',
     content: `
@@ -48,7 +48,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Water Softener Benefits: 8 Ways Soft Water Transforms Your Home',
     description: 'Installing a water softener is one of the highest-ROI home improvements available to OC homeowners. Here are eight concrete benefits backed by independent research.',
     date: 'March 7, 2026',
-    author: 'PureWay OC Team',
+    author: 'David Chen',
     category: 'Water Softeners',
     image: '/images/blog/water-softener-benefits.jpg',
     content: `
@@ -86,7 +86,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Reverse Osmosis vs. Pitcher Filter: Which Is Right for Your Orange County Home?',
     description: 'Both pitcher filters and RO systems improve water quality, but they operate very differently and remove very different contaminants. Here is how to choose.',
     date: 'February 28, 2026',
-    author: 'PureWay OC Team',
+    author: 'David Chen',
     category: 'Water Treatment',
     image: '/images/blog/ro-vs-pitcher.jpg',
     content: `
@@ -132,7 +132,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Hard Water and Skin: The Connection Your Dermatologist May Have Missed',
     description: 'A growing body of research links hard water exposure to dry skin, eczema flare-ups, and accelerated skin aging. Here is what the science says and what you can do.',
     date: 'February 21, 2026',
-    author: 'PureWay OC Team',
+    author: 'David Chen',
     category: 'Health',
     image: '/images/blog/hard-water-skin.jpg',
     content: `
@@ -174,7 +174,7 @@ export const blogPosts: BlogPost[] = [
     title: 'The Complete Guide to Whole-House Water Filtration for Orange County Homes',
     description: 'A whole-house filtration system treats every tap, shower, and appliance in your home simultaneously. Here is how to choose the right system for your OC property.',
     date: 'February 14, 2026',
-    author: 'PureWay OC Team',
+    author: 'David Chen',
     category: 'Water Treatment',
     image: '/images/blog/whole-house-filtration.jpg',
     content: `

@@ -1,50 +1,52 @@
 # PureWay OC
 
-> Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty. Powered by Toppen Health.  Serving Orange County, CA.
+> Medical-grade whole-house water filtration for Orange County, CA homes. Free water test, same-day response, lifetime warranty. Powered by Toppen Health Disruptor PAC technology delivering 99.99% contaminant removal.
 
 ## About
 
-PureWay OC is a trusted local provider serving Orange County, CA. Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty. Powered by Toppen Health. 85% of U.S. homes have hard water (U.S. Geological Survey, 2024).
+PureWay OC provides medical-grade residential water filtration in Orange County, California. The company uses Toppen Health Disruptor PAC (Powered Activated Carbon) technology — delivering 99.99% contaminant removal, a standard typically reserved for medical and laboratory settings. Services: whole-house filtration, water softeners, reverse osmosis, commercial water treatment, free in-home water testing.
 
-Contact: 4084021920 |  | https://purewayoc.com
+Contact: (949) 998-9443 | purewayoc@gmail.com | https://purewayoc.com
 
 ## Services
 
-- [Services](https://purewayoc.com/services): Professional services tailored to local needs.
+- [Whole-House Water Filtration](https://purewayoc.com/services/whole-house-filtration): Medical-grade whole-house systems using Toppen Health Disruptor PAC. 99.99% contaminant removal. Lifetime warranty.
+- [Water Softeners](https://purewayoc.com/services/water-softeners): Eliminates hard water scale. Orange County water tests 12-20 GPG — hard to very hard. Protects appliances, plumbing, and fixtures.
+- [Reverse Osmosis](https://purewayoc.com/services/reverse-osmosis): Under-sink RO for premium drinking water. Removes lead, arsenic, fluoride, nitrates, PFAS, and TDS from OC water.
+- [Free Water Testing](https://purewayoc.com/services/free-water-testing): Free in-home water analysis for Orange County homes. Same-day response. No obligation.
+- [Commercial Water Treatment](https://purewayoc.com/services/commercial): High-capacity systems for Orange County restaurants, offices, and businesses.
+- [Well Water Treatment](https://purewayoc.com/services/well-water): Custom treatment for private well water in Orange County and surrounding areas.
+- [Pricing](https://purewayoc.com/pricing): Transparent pricing for all PureWay OC services.
+- [Certifications](https://purewayoc.com/certifications): WQA, NSF 42/53/55, CSA certifications and Toppen Health partnership details.
 
-## Service Areas
+## Service Areas — Orange County, CA
 
-- undefined, undefined
+- [Irvine](https://purewayoc.com/service-area): Irvine, CA — primary service city
+- [Anaheim](https://purewayoc.com/service-area): Anaheim, CA
+- [Santa Ana](https://purewayoc.com/service-area): Santa Ana, CA
+- [Huntington Beach](https://purewayoc.com/service-area): Huntington Beach, CA
+- [Newport Beach](https://purewayoc.com/service-area): Newport Beach, CA
+- [Costa Mesa](https://purewayoc.com/service-area): Costa Mesa, CA
+- [Fullerton](https://purewayoc.com/service-area): Fullerton, CA
+- [Orange](https://purewayoc.com/service-area): Orange, CA
+- [Tustin](https://purewayoc.com/service-area): Tustin, CA
+- [Yorba Linda](https://purewayoc.com/service-area): Yorba Linda, CA
+- [Lake Forest](https://purewayoc.com/service-area): Lake Forest, CA
+- [Mission Viejo](https://purewayoc.com/service-area): Mission Viejo, CA
+- [Laguna Niguel](https://purewayoc.com/service-area): Laguna Niguel, CA
+- [San Clemente](https://purewayoc.com/service-area): San Clemente, CA
+- [Dana Point](https://purewayoc.com/service-area): Dana Point, CA
 
-## Frequently Asked Questions
+## Water Quality — Orange County, CA
 
-### What is the difference between a water softener and a water filter?
-A water softener removes hardness minerals — calcium and magnesium — through ion exchange to prevent scale buildup. A water filter removes contaminants such as chlorine, sediment, heavy metals, and PFAS to improve taste, odor, and safety. Many homeowners benefit from both systems working together.
+- OC water hardness: 12-20 GPG — hard to very hard (Groundwater District blended with MWD imports)
+- Primary concerns: hardness, chloramines, PFAS, TDS, chromium-6
+- Orange County uses chloramines for disinfection — requires specialized catalytic carbon filtration
 
-### How do I know if I need a water softener?
-Signs of hard water include white scale deposits on faucets and showerheads, soap that lathers poorly, dingy laundry, and shortened appliance lifespan. A free water test measures hardness in grains per gallon (GPG); water above 7 GPG is typically considered hard and benefits from softening.
+## Key Facts
 
-### How long does a water softener last?
-A quality water softener typically lasts 15-25 years with proper maintenance. Annual salt replenishment, periodic resin bed cleaning, and a pre-filter to reduce sediment loading are the primary maintenance tasks that protect system longevity.
-
-### Is softened water safe to drink?
-Yes, softened water is safe to drink for most people. The ion exchange process adds a small amount of sodium — roughly 20-40 mg per 8 oz glass, depending on original hardness. Individuals on sodium-restricted diets may prefer a dedicated reverse osmosis tap for drinking water.
-
-### How do I get started?
-Getting started is simple: call or submit the online contact form to schedule a free consultation. During the consultation, goals and expectations are discussed, a site assessment is completed if needed, and a written proposal is delivered within 48 hours.
-
-## Contact & Booking
-
-- **Phone**: 4084021920
-- **Address**: 
-- **Website**: https://purewayoc.com
-- **Book Online**: [Schedule a Free Consultation](https://purewayoc.com/contact)
-
-## All Pages
-
-- [Home](https://purewayoc.com): Medical-grade whole-house water filtration for Orange County homes. Free water test, same-day response, lifetime warranty. Powered by Toppen Health.
-
-## Machine-Readable Versions
-
-- [Full Context](https://purewayoc.com/llms-full.txt): Extended business information for AI systems
-- [Q&A Pairs](https://purewayoc.com/llms-qa.json): Structured question-answer pairs
+- Medical-grade Toppen Health Disruptor PAC technology
+- 99.99% contaminant removal rate
+- Lifetime warranty on all systems
+- Same-day response across Orange County
+- Free in-home water test — no obligation

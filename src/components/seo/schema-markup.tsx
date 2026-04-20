@@ -139,7 +139,14 @@ const localBusinessSchema = {
       },
     },
   ],
-  sameAs: [],
+  sameAs: [
+    'https://purewayoc.com',
+    'https://www.facebook.com/purewayoc',
+    'https://www.instagram.com/purewayoc',
+    'https://www.yelp.com/biz/pureway-oc-irvine',
+    'https://www.google.com/maps/search/PureWay+OC+Orange+County',
+    'https://www.bbb.org/us/ca/irvine/profile/water-filtration',
+  ],
   dateModified: DATE_MODIFIED,
 }
 
