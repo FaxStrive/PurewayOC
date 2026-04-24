@@ -57,7 +57,7 @@ export default function Hero() {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-center"
         poster="/images/hero-poster.jpg"
       >
         <source src="/videos/hero-bg.mp4" type="video/mp4" />
