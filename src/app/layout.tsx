@@ -94,6 +94,19 @@ export default function RootLayout({
         />
       </head>
       <body className={`${dmSans.variable} ${dmSerif.variable} antialiased`}>
+        {/* Google Ads tag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18054370384"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-config" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18054370384');
+          `}
+        </Script>
         <SchemaMarkup />
         {children}
         <MobileCallBar />
