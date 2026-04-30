@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import Script from 'next/script'
@@ -23,6 +23,26 @@ const contactDetails = [
 export default function ContactForm() {
   const sectionRef = useRef<HTMLElement>(null)
   const inView = useInView(sectionRef, { once: true, margin: '-60px' })
+
+  useEffect(() => {
+    const handleMessage = (e: MessageEvent) => {
+      if (
+        e.data?.type === 'form_submitted' ||
+        e.data?.event === 'form_submitted' ||
+        (typeof e.data === 'string' && e.data.includes('form_submitted'))
+      ) {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'conversion', {
+            send_to: 'AW-18054370384/ThfRCLmW4qQcENCo_6BD',
+            value: 1.0,
+            currency: 'USD',
+          })
+        }
+      }
+    }
+    window.addEventListener('message', handleMessage)
+    return () => window.removeEventListener('message', handleMessage)
+  }, [])
 
   return (
     <section
