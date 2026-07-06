@@ -114,6 +114,14 @@ export default function RootLayout({
         <SocialProofToast />
         <ScrollRevealCTA />
         <CornerOfferPeek />
+        {/* LeadConnector chat widget */}
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="6a46ad5b8acf50dff3cc9161"
+          data-source="WEB_USER"
+          strategy="afterInteractive"
+        />
         <Script id="ms-clarity" strategy="afterInteractive">
           {`(function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
