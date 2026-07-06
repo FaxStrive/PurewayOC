@@ -18,9 +18,6 @@ const ExitIntentPopup = dynamic(() => import('@/components/conversion/exit-inten
 const SocialProofToast = dynamic(() => import('@/components/conversion/social-proof-toast'), {
   ssr: false,
 });
-const ScrollRevealCTA = dynamic(() => import('@/components/conversion/scroll-reveal-cta'), {
-  ssr: false,
-});
 const CornerOfferPeek = dynamic(() => import('@/components/conversion/corner-offer-peek'), {
   ssr: false,
 });
@@ -112,7 +109,6 @@ export default function RootLayout({
         <MobileCallBar />
         <ExitIntentPopup />
         <SocialProofToast />
-        <ScrollRevealCTA />
         <CornerOfferPeek />
         {/* LeadConnector chat widget */}
         <Script
