@@ -6,7 +6,7 @@ import "./globals.css";
 import dynamic from 'next/dynamic';
 
 const SchemaMarkup = dynamic(() => import('@/components/seo/schema-markup'), {
-  ssr: false,
+  ssr: true,
 });
 
 const MobileCallBar = dynamic(() => import('@/components/conversion/mobile-call-bar'), {
