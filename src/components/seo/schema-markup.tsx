@@ -433,9 +433,9 @@ export default function SchemaMarkup() {
   const pathname = usePathname() || '/'
   const schemas: object[] = []
 
-  // Homepage: LocalBusiness + WebSite
+  // Homepage: LocalBusiness + WebSite + FAQPage
   if (pathname === '/') {
-    schemas.push(localBusinessSchema, websiteSchema)
+    schemas.push(localBusinessSchema, websiteSchema, generalFAQSchema)
   }
 
   // FAQ page: FAQPage schema
